@@ -6,6 +6,10 @@ public class Listas {
     ArrayList<Alumno> alumnos = new ArrayList<>();
 
     public void agregarDatos(){
+        Alumno Alejandro = new Alumno(21930010, "Alejandro",
+                "Vidal", "Perez", 18,
+                "Ing. Informática");
+        alumnos.add(Alejandro);
         alumnos.add(new Alumno(21930122L, "Isabel",
                 "Granados", "Rebollar",
                 18, "Ing. Informática"));
